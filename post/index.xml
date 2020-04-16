@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Anne&#39;s bolg</title>
+    <link>http://yubaby0918.github.io/post/</link>
+    <description>Recent content in Posts on Anne&#39;s bolg</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Apr 2020 21:59:40 +0800</lastBuildDate>
+    
+	<atom:link href="http://yubaby0918.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>demo</title>
+      <link>http://yubaby0918.github.io/post/blog/</link>
+      <pubDate>Tue, 14 Apr 2020 21:59:40 +0800</pubDate>
+      
+      <guid>http://yubaby0918.github.io/post/blog/</guid>
+      <description>hello world</description>
+    </item>
+    
+    <item>
+      <title>demo2</title>
+      <link>http://yubaby0918.github.io/post/blog2/</link>
+      <pubDate>Tue, 14 Apr 2020 21:59:40 +0800</pubDate>
+      
+      <guid>http://yubaby0918.github.io/post/blog2/</guid>
+      <description>研一寒假时间表： 第一周：1.10-1.16 第二周：1.17-1.23 第三周：1.24-1.31 春节期间 第四周：2.01-2.07	机器学习 正月十五元宵节2.08 第五周：2.09-2.15	遥感 第六周：2.16-2.22 停课不停学-mooc网课 第七周：2.23-2.29 停课不停学-mooc网课 任务大纲： 一、遥感 1、envi\ec进度 2、pycharm:rs-寒假 3、海信对外合作需求-任务书 二、机器学习 1、pycharm:ml-寒假 2、黑马网课 3、iReader 三、网络课程 1、数据仓库与数据挖掘-王常颖老师 2、分布式与云计算-张小垒老师 3、数字图像处理-赵俊丽老师 4、英语-综合 5、英语-听说
+ 《Python3天快速入门机器学习》day1：机器学习概述+特征工程
+一、机器学习概述 1.1人工智能概述 1.1.1机器学习是人工智能的一个实现途径 1.1.2深度学习是从机器学习的一个方法（人工神经网络）发展而来 1.1.3机器学习的主要应用领域 1、自然语言处理 2、图像识别 3、传统预测 1.2机器学习是啥 1.2.1数据 1、结构：特征值+目标值 2、dataFrame行索引列索引表格 3、每一行数据称为一个样本 4、有些数据集可以没有目标值 1.2.2模型 1.2.3预测 1.3机器学习开发流程 1）获取数据 2）数据处理 3）特征工程 4）算法训练-模型 5）模型评估 6）应用 1.4机器学习算法分类 1.4.1监督学习（有目标值，输入数据有特征有标签，即有标准答案） 1、分类算法（其目标值是类别） 1）逻辑回归 2）k-近邻算法 3）贝叶斯分类 4）决策树与随机森林 2、回归算法（其目标值是连续型的数据） 1）岭回归 2）线性回归 1.4.2无监督学习（无目标值，输入数据有特征无标签，即无标准答案） 1、聚类算法 1)k-means 1.5算法是核心，数据和计算是基础 二、特征工程（数据中对于特征的处理） 2.1数据集 2.</description>
+    </item>
+    
+  </channel>
+</rss>

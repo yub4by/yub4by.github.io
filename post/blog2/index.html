@@ -1,0 +1,1063 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>demo2 // Anne&#39;s bolg</title>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.69.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="John Doe" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="http://yubaby0918.github.io/css/main.min.f90f5edd436ec7b74ad05479a05705770306911f721193e7845948fb07fe1335.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="demo2"/>
+<meta name="twitter:description" content="研一寒假时间表： 第一周：1.10-1.16 第二周：1.17-1.23 第三周：1.24-1.31 春节期间 第四周：2.01-2.07	机器学习 正月十五元宵节2.08 第五周：2.09-2.15	遥感 第六周：2.16-2.22 停课不停学-mooc网课 第七周：2.23-2.29 停课不停学-mooc网课 任务大纲： 一、遥感 1、envi\ec进度 2、pycharm:rs-寒假 3、海信对外合作需求-任务书 二、机器学习 1、pycharm:ml-寒假 2、黑马网课 3、iReader 三、网络课程 1、数据仓库与数据挖掘-王常颖老师 2、分布式与云计算-张小垒老师 3、数字图像处理-赵俊丽老师 4、英语-综合 5、英语-听说
+ 《Python3天快速入门机器学习》day1：机器学习概述&#43;特征工程
+一、机器学习概述 1.1人工智能概述 1.1.1机器学习是人工智能的一个实现途径 1.1.2深度学习是从机器学习的一个方法（人工神经网络）发展而来 1.1.3机器学习的主要应用领域 1、自然语言处理 2、图像识别 3、传统预测 1.2机器学习是啥 1.2.1数据 1、结构：特征值&#43;目标值 2、dataFrame行索引列索引表格 3、每一行数据称为一个样本 4、有些数据集可以没有目标值 1.2.2模型 1.2.3预测 1.3机器学习开发流程 1）获取数据 2）数据处理 3）特征工程 4）算法训练-模型 5）模型评估 6）应用 1.4机器学习算法分类 1.4.1监督学习（有目标值，输入数据有特征有标签，即有标准答案） 1、分类算法（其目标值是类别） 1）逻辑回归 2）k-近邻算法 3）贝叶斯分类 4）决策树与随机森林 2、回归算法（其目标值是连续型的数据） 1）岭回归 2）线性回归 1.4.2无监督学习（无目标值，输入数据有特征无标签，即无标准答案） 1、聚类算法 1)k-means 1.5算法是核心，数据和计算是基础 二、特征工程（数据中对于特征的处理） 2.1数据集 2."/>
+
+    <meta property="og:title" content="demo2" />
+<meta property="og:description" content="研一寒假时间表： 第一周：1.10-1.16 第二周：1.17-1.23 第三周：1.24-1.31 春节期间 第四周：2.01-2.07	机器学习 正月十五元宵节2.08 第五周：2.09-2.15	遥感 第六周：2.16-2.22 停课不停学-mooc网课 第七周：2.23-2.29 停课不停学-mooc网课 任务大纲： 一、遥感 1、envi\ec进度 2、pycharm:rs-寒假 3、海信对外合作需求-任务书 二、机器学习 1、pycharm:ml-寒假 2、黑马网课 3、iReader 三、网络课程 1、数据仓库与数据挖掘-王常颖老师 2、分布式与云计算-张小垒老师 3、数字图像处理-赵俊丽老师 4、英语-综合 5、英语-听说
+ 《Python3天快速入门机器学习》day1：机器学习概述&#43;特征工程
+一、机器学习概述 1.1人工智能概述 1.1.1机器学习是人工智能的一个实现途径 1.1.2深度学习是从机器学习的一个方法（人工神经网络）发展而来 1.1.3机器学习的主要应用领域 1、自然语言处理 2、图像识别 3、传统预测 1.2机器学习是啥 1.2.1数据 1、结构：特征值&#43;目标值 2、dataFrame行索引列索引表格 3、每一行数据称为一个样本 4、有些数据集可以没有目标值 1.2.2模型 1.2.3预测 1.3机器学习开发流程 1）获取数据 2）数据处理 3）特征工程 4）算法训练-模型 5）模型评估 6）应用 1.4机器学习算法分类 1.4.1监督学习（有目标值，输入数据有特征有标签，即有标准答案） 1、分类算法（其目标值是类别） 1）逻辑回归 2）k-近邻算法 3）贝叶斯分类 4）决策树与随机森林 2、回归算法（其目标值是连续型的数据） 1）岭回归 2）线性回归 1.4.2无监督学习（无目标值，输入数据有特征无标签，即无标准答案） 1、聚类算法 1)k-means 1.5算法是核心，数据和计算是基础 二、特征工程（数据中对于特征的处理） 2.1数据集 2." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://yubaby0918.github.io/post/blog2/" />
+<meta property="article:published_time" content="2020-04-14T21:59:40+08:00" />
+<meta property="article:modified_time" content="2020-04-14T21:59:40+08:00" />
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="http://yubaby0918.github.io/"><img class="app-header-avatar" src="/avatar.jpg" alt="John Doe" /></a>
+      <h1>Anne&#39;s bolg</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vehicula turpis sit amet elit pretium.</p>
+      <div class="app-header-social">
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">demo2</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Apr 14, 2020
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          8 min read
+        </div></div>
+    </header>
+    <div class="post-content">
+      <p>研一寒假时间表：
+第一周：1.10-1.16
+第二周：1.17-1.23
+第三周：1.24-1.31  春节期间
+第四周：2.01-2.07	机器学习
+正月十五元宵节2.08
+第五周：2.09-2.15	遥感
+第六周：2.16-2.22 停课不停学-mooc网课
+第七周：2.23-2.29 停课不停学-mooc网课
+任务大纲：
+一、遥感
+1、envi\ec进度
+2、pycharm:rs-寒假
+3、海信对外合作需求-任务书
+二、机器学习
+1、pycharm:ml-寒假
+2、黑马网课
+3、iReader
+三、网络课程
+1、数据仓库与数据挖掘-王常颖老师
+2、分布式与云计算-张小垒老师
+3、数字图像处理-赵俊丽老师
+4、英语-综合
+5、英语-听说</p>
+<hr>
+<p>《Python3天快速入门机器学习》day1：机器学习概述+特征工程</p>
+<p>一、机器学习概述
+1.1人工智能概述
+1.1.1机器学习是人工智能的一个实现途径
+1.1.2深度学习是从机器学习的一个方法（人工神经网络）发展而来
+1.1.3机器学习的主要应用领域
+1、自然语言处理
+2、图像识别
+3、传统预测
+1.2机器学习是啥
+1.2.1数据
+1、结构：特征值+目标值
+2、dataFrame行索引列索引表格
+3、每一行数据称为一个样本
+4、有些数据集可以没有目标值
+1.2.2模型
+1.2.3预测
+1.3机器学习开发流程
+1）获取数据
+2）数据处理
+3）特征工程
+4）算法训练-模型
+5）模型评估
+6）应用
+1.4机器学习算法分类
+1.4.1监督学习（有目标值，输入数据有特征有标签，即有标准答案）
+1、分类算法（其目标值是类别）
+1）逻辑回归
+2）k-近邻算法
+3）贝叶斯分类
+4）决策树与随机森林
+2、回归算法（其目标值是连续型的数据）
+1）岭回归
+2）线性回归
+1.4.2无监督学习（无目标值，输入数据有特征无标签，即无标准答案）
+1、聚类算法
+1)k-means
+1.5算法是核心，数据和计算是基础
+二、特征工程（数据中对于特征的处理）
+2.1数据集
+2.1.1可用数据集
+1、kaggle
+2、uci
+3、scikit-learn
+ps:一般是csv文件，处理工具是pandas
+2.1.2sklearn数据集
+1、sklearn.datasets 加载获取流行数据集
+1）load_* 小规模的数据集
+例如：sklearn.datasets.load_iris()
+注意：*表示数据集名字
+2）fetch_* 大规模的数据集
+例如：sklearn.datasets.fetch_20newsgroups(data_home=None,subset=‘train’)
+data_home：None表示不指定，则默认下载到家目录（C:\Users\yubaby\scikit_learn_data）
+subset：选择要加载的数据集，可选&quot;训练集&quot;train&quot;测试集&quot;test&quot;全部&quot;all
+2、数据集的返回值是Bunch类型（字典格式）
+1）load和fetch返回的数据类型都是datasets.base.Bunch（继承自字典）
+2）Bunch的结构
+{&lsquo;data&rsquo;: 数据数组（是[samples*features]的二维numpy.ndarray）,
+&lsquo;target&rsquo;:标签数组（是[samples]的一维numpy.ndarray）,
+&lsquo;DESCR&rsquo;:数据描述,
+&lsquo;feature_names&rsquo;:特征名,
+&lsquo;target_names&rsquo;:标签名}
+3）Bunch类型的数据访问方法
+法一：dict[&ldquo;key&rdquo;] = values
+法二：bunch.key = values
+3、numpy&amp;pandas是sklearn库的依赖库
+sklearn库有一下六方面用途：
+1）classification分类
+2）regression回归
+3）clustering聚类
+4）dimensionality reduction降维
+5）model selection模型选择
+6）preprocessing特征工程
+2.1.3数据集划分
+1、训练数据：用于训练，构建模型
+训练集占比80%~70%
+2、测试数据：在模型检验时使用，用于评估模型是否有效
+测试集占比20%~30%
+3、sklearn.model_selection.train_test_split(arrays, *options)
+例如:x_train, x_test, y_train, y_test = train_test_split(iris.data, iris.target, test_size=0.2, random_state=22)
+注意：特征值必选，其余三项可选
+1）x数据集的特征值，y数据集的目标值
+2）test_size测试集的大小，一般为float
+3）random_state随机数种子，不同种子造成不同的随机采样结果，相同种子则采样结果相同
+4）return
+训练集特征值，测试集特征值，训练集目标值，测试集目标值
+x_train, x_test, y_train, y_test
+2.2特征工程
+2.2.1特征工程简介
+1、数据和特征决定了机器学习的上限，而模型和算法只是逼近这个上限而已
+2、特征工程直接影响机器学习的效果
+3、sklearn对特征工程提供强大接口
+pandas是数据清洗、数据处理工具
+4、特征工程包含内容：
+1）特征抽取（提取）
+2）特征预处理
+3）特征降维
+2.2.2特征抽取
+1、机器学习算法-统计方法-数学公式
+例如：如何将文本转换为数值或类型转换为数值
+2、sklearn.feature_extraction
+1）字典特征抽取（特征离散化）
+方法：sklearn.feature_extraction.DictVectorizer(sparse=True,…)
+PS：实例化一个转换器类transfer
+sparse默认为True
+矩阵 matrix 二维数组
+向量 vector 一维数组
+若有特征为类别，则sparse设置为False，数据转换为one-hot编码（哑变量）
+具体调用：
+DictVectorizer.fit_transform(x)
+参数x：字典或者包含字典的迭代器（如元素为字典的列表）
+返回值：sparse矩阵
+DictVectorizer.inverse_transform(x)
+参数x：array数组或者sparse矩阵
+返回值：转换之前的数据格式
+DictVectorizer.get_feature_names()
+返回值：特征名称
+sparse稀疏矩阵
+形式：将非零值按位置表示出来
+目的：节省内存，提高加载效率
+字典特征抽取的应用场景
+场景1：数据集当中类别特征比较多
+场景2：本身拿到的数据就是字典类型
+2）文本特征抽取
+常将文本的单词（而不是字母，短语或句子）作为特征，称为特征词（中文中常用词语）
+方法一：sklearn.feature_extraction.text.CountVectorizer(stop_words=[])
+PS：返回词频矩阵
+统计每个样本特征词出现的个数
+可选stop_words是停用词表，多为虚词
+注意若文本为中文时需要分词，手动分词或利用jieba自动分词
+具体调用：
+CountVectorizer.fit_transform(x)
+参数x：文本或者包含文本字符串的可迭代对象
+返回值：sparse矩阵
+CountVectorizer.inverse_transform(x)
+参数x：array数组或者sparse矩阵
+返回值：转换之前的数据格式
+CountVectorizer.get_feature_names()
+返回值：单词列表
+方法二：sklearn.feature_extraction.text.TfidfVectorizer(stop_words=[])
+PS：返回词频矩阵
+TF-IDF：词频-逆向文档频率
+TF-IDF文本特征提取的主要思想：
+若某个词/短语在某篇文章中出现的概率高，而在其他文章中很少出现，
+则认为该词/短语具有很好的区分能力，称之为关键词。
+TF-IDF作用：评估某词对于某一文件集/语料库中的某份文件的重要程度。
+方法一不能很容易地找出关键词，方法二解决了这个问题。
+TF-IDF=tf*idf具体求解见视频
+具体调用：
+TfidfVectorizer.fit_transform(x)
+参数x：文本或者包含文本字符串的可迭代对象
+返回值：sparse矩阵
+TfidfVectorizer.inverse_transform(x)
+参数x：array数组或者sparse矩阵
+返回值：转换之前的数据格式
+TfidfVectorizer.get_feature_names()
+返回值：单词列表	
+3）图像特征提取（深度学习部分）
+2.2.3特征预处理
+1、什么是特征预处理？
+通过一些转换函数将特征数据转换成更加适合算法模型的新特征数据的过程。
+2、特征预处理的内容
+1）数值型数据的无量纲化（即使不同规格的数据转换为统一规格）
+2）无量纲化的方法：
+归一化（通过对原始数据进行变换将数据映射到固定区间(默认[0,1])之间）（X&rsquo;,X'&lsquo;具体求解见视频）
+标准化（通过对原始数据进行变换将数据变换到均值为0，标准差为1的范围内）（X'具体求解见视频）
+PS:其中标准化较为常用
+3、API：sklearn.preprocessing
+1)归一化MinMaxScaler()
+sklearn.preprocessing.MinMaxScaler(feature_range=(0,1))
+MinMaxScaler.fit_transform(x)
+参数x：形如[n_samples,n_features]的ndarray数组
+返回值：形如n_samples*n_features的array
+2)标准化StandardScaler()
+sklearn.preprocessing.StandardScaler()
+StandardScaler.fit_transform(x)
+参数x：形如[n_samples,n_features]的ndarray数组
+返回值：形如n_samples*n_features的array	
+2.2.4特征降维
+1、降维=降低维度
+1)ndarray中维数=嵌套的层数
+0维 标量
+1维 向量
+2维 矩阵
+&hellip;	&hellip;
+n维	&hellip;
+2)特征降维中：
+降维对象是二维数组
+降维是指降低特征的个数
+效果是使特征与特征之间不相关
+2、特征选择（从数据的原有特征中找出主要特征）
+1）Filter过滤式：
+方差选择法：低方差特征过滤
+特征方差小：某个特征大多样本的值比较接近
+特征方差大：某个特征大多样本的值都有差别
+相关系数：特征与特征之间的相关程度
+皮尔逊相关系数：反映变量之间相关关系密切程度的统计指标（r具体求解见视频）
+取值范围：–1≤r≤+1
+r&gt;0：两变量正相关；r&lt;0：两变量负相关
+r=1：两变量完全相关；r=0：两变量不相关
+|r|&lt;0.4为低度相关
+0.4≤|r|&lt;0.7为显著性相关
+0.7≤|r|&lt;1为高度线性相关
+特征与特征之间相关性很高：
+1）选取其中一个
+2）加权求和
+3）主成分分析
+2）Embeded嵌入式：算法自动选择特征（后续课程学习）
+决策树：信息熵、信息增益等
+正则化：L1、L2
+深度学习：卷积等
+3、过滤式
+1）低方差特征过滤
+sklearn.feature_selection.VarianceThreshold(threshlod=0.0)
+删除低方差特征,阈值方差threshlod默认为0
+VarianceThreshold.fit_transform(x)
+参数x：形如[n_samples,n_features]的ndarray数组
+返回值：训练集差异低于threshlod的特征都将被删除
+默认值是保留所有非零方差特征
+即删除所有样本中具有相同值得特征
+2）皮尔逊相关系数
+from scipy.stats import pearsonr  
+r=pearsonr(x,y)
+参数x、y：例如data[&ldquo;pe_ratio&rdquo;], data[&ldquo;pb_ratio&rdquo;]
+返回值：(相关性，P值)，P值表示显著水平且越小越好
+2.3主成分分析
+2.3.1什么是PCA=主成分分析
+1、定义
+高维数据转化为低维数据的过程，在此过程中可能舍弃原有数据、创造新数据
+2、作用
+使数据维数压缩，尽可能降低原数据的维数（复杂度），损失少量信息
+3、应用
+回归分析或聚类分析
+2.3.2API
+sklearn.decomposition.PCA(n_components=None)
+1、将数据分解为较低维的空间
+2、n_components
+1）小数：表示保留百分之多少的信息
+2）整数：减少到多少特征
+3、PCA.fit_transform(x)
+1)参数x：形如[n_samples,n_features]的ndarray数组
+2)返回值：转换后指定维度的array
+2.3.3案例：探究用户对物品类别的喜好细分降维
+instacart市场菜篮子分析
+instacart消费者将购买哪些产品</p>
+<pre><code>            用户          物品类别
+      user_id         aisle
+      
+      1）需要将user_id和aisle放在同一个表中 -&gt; 合并
+      2）找到user_id和aisle -&gt; 交叉表和透视表
+      3）(放在同一个表后发现有大量0)特征冗余过多 -&gt; PCA降维
+</code></pre>
+<hr>
+<p>《Python3天快速入门机器学习》day2：分类算法</p>
+<p>监督学习（有目标值，输入数据有特征有标签，即有标准答案）
+1、分类算法（其目标值是类别）
+2、回归算法（其目标值是连续型的数据）
+无监督学习（无目标值，输入数据有特征无标签，即无标准答案）
+1、聚类算法</p>
+<h2 id="能够有效地运行在大数据集上处理具有高维特征的输入样本而且不需要降维">三、分类算法
+3.1sklearn转换器与预估器
+3.1.1转换器(特征工程的父类)
+1、特征工程的实操步骤：
+1）实例化(实例化的是一个转换器类(Transformer))
+2）调用fit_transform(对于文档建立分类词频矩阵，不能同时调用)
+2、将特征工程的接口称为转换器，转换器有以下几种形式：
+1）fit_transform
+2）fit
+3）transform
+3、例子
+标准化	X&rsquo; = (x - mean) / std
+day1.py中的stand_demo()
+fit_transform()中的运行细节：
+1）fit()	计算 每一列的平均值、标准差
+2）transform()	带入公式X'进行最终的 转换
+3.1.2估计器(sklearn机器学习算法的实现)
+1、估计器(estimator)是一类实现了算法的API
+1）用于分类的估计器
+sklearn.neighbors	K-近邻算法
+sklearn.naive_bayes	贝叶斯
+sklearn.linear_model.LogisticRegression	逻辑回归
+sklearn.tree	决策树与随机森林
+2）用于回归的估计器
+sklearn.linear_model.LinearRegression	线性回归
+sklearn.linear_model.Ridge	岭回归
+3）用于无监督学习的估计器
+sklearn.cluster.KMeans	聚类
+2、估计器工作流程
+输入训练集(x_train, y_train)和测试集(x_test, y_test)作为参数
+1）实例化一个estimator
+2）生成模型（用训练集）：
+estimator.fit(x_train, y_train)进行计算，调用完毕时模型生成
+3）模型评估（用测试集）：
+法一：直接比对真实值和预测值
+真实值y_test
+预测值y_predict = estimator.predict(x_test)
+比对y_test == y_predict，结果为true/false
+法二：计算准确率
+accuracy = estimator.score(x_test, y_test)
+3.2K-近邻算法(KNN)
+3.2.1 什么是K-近邻算法
+1、参数K；最近的N；邻居N
+1）算法核心思想：根据你&quot;邻居&quot;的类别来判断你的类别
+2）算法原理
+定义：若一个样本在特征空间中的K个最相似（即最近邻）的样本中的大多数属于某一类别，则该样本也属于该类别
+距离公式：
+欧氏距离（常用）
+曼哈顿距离（绝对值距离）
+明可夫斯基距离
+2、电影类型分析
+3、问题
+1）如果取的最近的电影数量不一样？会是什么结果？
+k 值取得过小，容易受到异常点的影响
+k 值取得过大，样本不均衡的影响
+2）结合前面的约会对象数据，分析K-近邻算法需要做什么样的处理？
+使用标准化方法进行无量纲化处理
+3.2.2	KNN-API
+sklearn.neighbors.KNeighborsClassifier(n_neighbors=5,algorithm='auto&rsquo;)
+n_neighbors：k值，即查询使用的邻居数，可选，int，默认=5。
+algorithm：{&ldquo;auto&rdquo;,&ldquo;ball_tree&rdquo;,&ldquo;kd_tree&rdquo;,&ldquo;brute&rdquo;}，不同实现方式影响效率；
+默认auto,将根据传递给fit()的值来确定最合适的算法。
+3.2.3 案例1：鸢尾花种类预测
+1、获取数据
+2、数据集划分
+3、特征工程之标准化
+4、KNN估计器工作流程之生成模型
+5、KNN估计器工作流程之模型评估
+3.3.4	K-近邻总结
+1、优点：简单，易于理解，易于实现，无需训练
+2、缺点：
+1）必须指定K值，K值选择不当则分类精度不能保证
+2）懒惰算法，对测试样本分类时的计算量大，内存开销大
+3、使用场景：小数据场景，几千～几万样本，具体场景具体业务去测试
+3.3模型选择与调优
+3.3.1 什么是交叉验证(cross validation)
+交叉验证：将训练集再分为新训练集和验证集。
+1、数据=训练集+测试集
+2、为让从训练得到的模型结果更加准确，做以下处理：
+1）训练集：新训练集+验证集
+2）测试集：原测试集
+3、例子-3折交叉验证
+1）将训练集分成三份，其中一份作为验证集，其余两份作为新训练集。
+经过三次（组）测试，每次都更换不同的验证集。
+得到三组模型的结果，取平均值作为最终结果。
+2）模型一：训练集=验证集    + 新训练集1 + 新训练集2 ；准确率=80%
+模型二：训练集=新训练集1 + 验证集    + 新训练集2 ；准确率=90%
+模型三：训练集=新训练集1 + 新训练集2 + 验证集    ；准确率=70%
+最终模型：训练集；准确率=(80+90+70)/3=80%
+3.3.2 超参数搜索-网格搜索(Grid Search)
+1、通常情况下，有很多参数是需要手动指定的（例如KNN种的K值），这种称为超参数。
+因为手动过程繁杂，所以需要对模型预设几种超参数组合。
+每组超参数都采用交叉验证来评估。最终选出最优参数组合建立模型。
+2、模型选择与调优API
+sklearn.model_selection.GridSearchCV(estimator,param_grid=None,cv=None)
+1）作用：对估计器的指定参数进行详尽搜索
+2）参数：
+estimator：估计器对象
+param_grid：估计器参数，dict字典类型，例如想让K值取1、3、5则{&ldquo;n_heighbors&rdquo;:[1,3,5]}
+cv：指定几折交叉验证，常用10折
+3）调用方法：
+fit()：输入训练数据（生成子模型）
+score()：求出准确率（子模型评估）
+4）结果分析（调用属性查看）：
+best_params_：最佳参数
+best_score_：最佳结果
+best_estimator_：最佳估计器
+cv_results_：交叉验证结果
+3.3.3 鸢尾花案例增加K值调优
+3.3.4 案例：预测facebook签到位置
+流程分析：
+1、获取数据
+2、数据处理
+1）目的：特征值X+目标值Y
+2）数据：
+FBlocation/train.csv：[29118021 rows x 6 columns]
+a.原数据量太大，为节省时间，以地理位置x&amp;y为基准缩小数据范围为2 &lt; x &lt; 2.5 &amp; 1.0 &lt; y &lt; 1.5
+b.原数据time时间特征为时间戳格式，例如470702，无明显意义，要处理为有意义的年月日时分秒
+c.过滤签到次数少的地点
+3)数据集划分
+3、特征工程-标准化
+4、KNN算法预估流程
+5、模型选择与调优
+6、模型评估
+3.4朴素贝叶斯算法
+3.4.1什么是朴素贝叶斯
+朴素 + 贝叶斯
+3.4.2概率(Probability)基础
+P(喜欢)=4/7，P(不喜欢)=3/7
+3.4.3联合概率&amp;条件概率&amp;相互独立
+1、联合概率:包含多个条件，且所有条件同时成立的概率
+记作：P(A,B)
+例如：P(程序员，匀称)=1/7，P(程序员,超重|喜欢)=1/4
+2、条件概率:事件A在另一事件B已发生条件下的发生概率
+记作：P(A|B)
+例如：P(程序员|喜欢)=2/4=1/2，P(程序员,超重|喜欢)=1/4
+3、相互独立：P(A,B)=P(A)P(B) &lt;==&gt; 事件A与事件B相互独立
+3.4.4贝叶斯公式
+1、P(C|W)=P(W|C)P(C)/P(W)
+W为给定文档的特征值（频数统计，预测文档提供），C为文档类别
+2、何为朴素？
+即假设特征与特征之间是相互独立的，即P(A,B)=P(A)P(B)
+3.4.5API
+sklearn.naive_bayes import MultinomialNB(alpha=1.0)
+参数：alpha是拉普拉斯平滑系数，默认为1，目的是防止计算出的分类概率为0
+3.4.6案例：20类新闻分类
+1）获取数据
+2）划分数据集
+3）特征工程-文本特征抽取
+4）朴素贝叶斯预估器流程
+5）模型评估
+3.4.7朴素贝叶斯总结
+1、应用场景：
+文本分类
+单词作为特征
+2、优点：
+1）该算法源于古典数学理论，有稳定的分类效率。
+2）对缺失数据不太敏感，算法也比较简单，常用于文本分类。
+3）分类准确度高，速度快。
+3、缺点（特点）：
+由于使用了样本属性独立性的假设，所以如果特征属性有关联时其效果不好。
+3.5决策树
+3.5.1认识决策树
+如何高效的进行决策？
+特征的先后顺序
+3.5.2决策树分类原理
+1、信息论
+1）信息
+香农：消除随机不定性的东西
+小明 年龄 “我今年18岁” - 信息
+小华 ”小明明年19岁” - 不是信息
+2）信息的衡量-信息量
+信息熵（H或Ent表示），单位是bit
+&hellip;.
+2、类型
+1）ID3	信息增益 最大原则
+2）C4.5 信息增益率 最大原则
+3）CART 基尼系数 最小原则
+3.5.3API
+sklearn.tree.DecisionTreeClassifier(criterion=&quot;gini&rdquo;,max_depth=None,random_state=None)
+1）作用：决策树分类器
+2）参数：
+criterion：特征选择标准：&ldquo;gini&quot;或者&quot;entropy&rdquo;，前者代表基尼系数，后者代表信息增益。默认&quot;gini&rdquo;，即CART算法。
+max_depth：树的深度
+random_state：随机数种子
+3.5.4案例：泰坦尼克号乘客生死预测
+流程分析：
+特征值+目标值
+1）获取数据
+2）数据处理
+缺失值处理
+特征值 -&gt; 字典类型
+3）准备好特征值 目标值
+4）划分数据集
+5）特征工程：字典特征抽取
+6）决策树预估器流程
+7）模型评估
+3.5.5决策树可视化
+1、保存树的结构到dot文件
+sklearn.tree.export_graphviz()
+tree.export_graphviz(estimator,out_file=&quot;tree.dot&rdquo;,feature_names=[])
+2、可视化
+1）复制生成的dot文件中的内容到http://webgraphviz.com/网站
+2）进入windows命令行界面，cd切换到tree.dot所在的路径，执行dot -Tpng tree.dot -o tree.png	
+3.5.6决策树总结
+1、优点：
+可视化，可解释能力强
+2、缺点：
+容易产生过拟合(随机森林可有效解决)
+3.6集成学习方法之随机森林
+3.6.1什么是集成学习方法
+1、定义
+通过建立几个模型组合来解决单一预测问题
+2、原理
+生成多个分类器/模型，各自独立地学习和作出预测，这些预测最后结合成组合预测，
+因此优于任何一个单分类做出的预测
+3.6.2什么是随机森林
+随机森林是一个包含多个决策树的分类器，并且其输出的类别是由个别树输出的类别的众数(占比最多的类别)而定
+3.6.3随机森林原理
+1、每棵树都是随机产生的，具体体现在两个随机：
+训练集：特征值+目标值，共有N个样本，M个特征
+1）特征值随机 - 从M个特征中随机抽取m个特征（M &raquo; m）（下述参数max_features）
+降维
+2）训练集随机 - N个样本中随机有放回的抽样N个
+bootstrap（随机有放回抽样）
+2、森林
+多个决策树
+3.6.4API
+sklearn.ensemble.RandomForestClassifier(n_estimators=10, criterion=’gini’, max_depth=None, bootstrap=True, random_state=None, min_samples_split=2)
+1、参数：
+1）n_estimators：森林里的树木数量，integer，可选（default = 10，常用[120,200,300,500,800,1200]）
+2）Criterion：分割特征的测量方法，string，可选（default =“gini”，可选&quot;entropy&rdquo;）
+3）max_depth：树的最大深度，integer或None，可选（default=None，常用[5,8,15,25,30]）
+4）max_features：每个决策树的最大特征数量，default=&quot;auto”,
+If &ldquo;auto&rdquo;, then max_features=sqrt(n_features).
+If &ldquo;sqrt&rdquo;, then max_features=sqrt(n_features)(same as &ldquo;auto&rdquo;).
+If &ldquo;log2&rdquo;, then max_features=log2(n_features).
+If None, then max_features=n_features.
+5）bootstrap：是否在构建树时使用放回抽样，boolean，可选（default = True）
+6）min_samples_split:节点划分最少样本数
+7）min_samples_leaf:叶子节点的最小样本数
+2、超参数（网格搜索和交叉验证时param_dict={}）：
+n_estimators, max_depth, min_samples_split,min_samples_leaf
+3.6.5案例：随机森林处理泰坦尼克号预测
+3.6.6总结
+能够有效地运行在大数据集上，处理具有高维特征的输入样本，而且不需要降维。</h2>
+<p>《Python3天快速入门机器学习》day3:回归算法+聚类算法</p>
+<p>四、回归算法
+4.1线性回归
+4.1.1线性回归的原理
+回归问题-目标值是连续型数据
+1、线性回归的应用场景
+1）房价预测
+2）销售额度预测
+3）贷款额度预测
+2、什么是线性回归
+特征值和目标值之间的关系是一种函数关系
+1）定义
+线性回归是利用回归方程（函数）对一个或多个自变量（特征值）和
+因变量（目标值）之间关系进行建模的一种分析方式
+2）特点
+只有一个自变量的情况称为单变量回归，
+多于一个自变量情况的称为多元回归。
+3）公式
+特征值：x
+目标值：y=h(w)=w1x1 + w2x2 + w3x3 + …… + wnxn + b= wTx + b
+其中w是回归系数（权重值），b是偏置，w b统称为模型参数；上式满足线性关系，称为线型模型
+PS:矩阵乘法 wT=[w1,w2,&hellip;,wn,b] x=[x1,x2,&hellip;,xn,1]T
+*求一组合适的w1 w2 &hellip; wn b使上式成立
+线型模型例子：
+期末成绩=0.7×考试成绩+0.3×平时成绩
+房子价格 = 0.02×中心区域的距离 + 0.04×城市一氧化氮浓度 + (-0.12×自住房平均房价) + 0.254×城镇犯罪率
+4）广义线性模型
+线性模型有两种情况：
+自变量x是一次的，例如上述公式
+参数w是一次的，例如y = w1x1 + w2x1^2 + w3x1^3 + w4x2^3 + …… + b
+非线性关系？==&gt;曲线也属于线性模型
+注意区别线性关系&amp;线性模型的关系：
+线性关系一定是线性模型
+线性模型不一定是线性关系
+PS：单特征与目标值呈线线关系，二特征与目标值呈平面关系				
+4.1.2线性回归的损失与优化原理（理解记忆）
+1、目标：求模型参数（w b）并且使模型参数能够使得预测准确
+2、例子
+1）
+真实关系：真实房子价格 = 0.02×中心区域的距离 + 0.04×城市一氧化氮浓度 + (-0.12×自住房平均房价) + 0.254×城镇犯罪率
+随意假定：预测房子价格 = 0.25×中心区域的距离 + 0.14×城市一氧化氮浓度 + 0.42×自住房平均房价 + 0.34×城镇犯罪率
+2）我们希望缩小预测房子价格和真实房子价格的差距（通过不断改进参数）
+损失函数/cost/成本函数/目标函数（衡量上述差距）&ndash; 最小二乘法
+3、优化算法-缩小损失
+如何求模型中的w，是的损失最小？（目的是找到最小损失对应的w值）
+1）方法一：正规方程（公式详解见视频）
+比喻“天才”&ndash;直接公式求解W
+理解：X为特征值矩阵，y为目标值矩阵。直接求到最好的结果
+缺点：当特征过多过复杂时，求解速度太慢并且得不到结果
+拓展：
+1)假设a&gt;0,试求y的最小值
+y = ax^2 + bx + c
+y&rsquo; = 2ax + b = 0
+x = - b / 2a
+PS:正规方程W类似上述过程，只不过x和y都为矩阵，涉及到矩阵求导，都是直接求解到最小值
+2)矩阵求逆
+a * b = 1 ==&gt; b = 1 / a = a ^ -1
+A * B = E ==&gt; B = 1 / A = A ^ -1
+[[1, 0, 0],
+[0, 1, 0],
+[0, 0, 1]]       <br>
+2）方法二：梯度下降（常用）（公式详解见视频）
+比喻“勤奋”&ndash;不断试错和改进
+4.1.3API
+1、sklearn.linear_model.LinearRegression(fit_intercept=True)
+1）LinearRegression类通过正规方程优化
+2）参数：
+fit_intercept：是否计算偏置，默认True
+3）属性：
+LinearRegression.coef_：回归系数
+LinearRegression.intercept_：偏置
+2、sklearn.linear_model.SGDRegressor(loss=&quot;squared_loss&rdquo;, fit_intercept=True, learning_rate ='invscaling&rsquo;, eta0=0.01)
+1）SGDRegressor类实现了随机梯度下降学习，它支持不同的loss函数和正则化惩罚项来拟合线性回归模型
+2）参数：
+loss:损失类型
+默认=”squared_loss”，即普通最小二乘法
+max_iter：迭代次数
+fit_intercept：是否计算偏置
+learning_rate : 学习率eta，string, 可选
+学习率填充：
+&lsquo;invscaling&rsquo;: eta = eta0 / pow(t, power_t)
+power_t=0.25（0.25次方）:存在父类当中
+&lsquo;optimal&rsquo;: eta = 1.0 / (alpha * (t + t0)) [default]
+&lsquo;constant&rsquo;: eta = eta0 = 0.01
+对于一个常数值的学习率来说，可以使用learning_rate=’constant’ ，并使用eta0来指定学习率
+3）属性：
+SGDRegressor.coef_：回归系数
+SGDRegressor.intercept_：偏置
+4.1.4案例：波士顿房价预测
+1）获取数据集
+2）划分数据集
+3）特征工程：
+无量纲化 - 标准化
+4）预估器流程
+fit() &ndash;&gt; 模型coef_ intercept_
+5）模型评估（见4.1.5）
+4.1.5回归性能评估
+1、均方误差MSE评价机制（公式详解见视频）
+sklearn.metrics.mean_squared_error(y_true, y_pred)
+1）均方误差回归损失
+2）参数：
+y_true:真实值
+y_pred:预测值
+3）返回值：return浮点数结果，越小越好
+2、正规方程和梯度下降两种回归模型对比
+1）梯度下降
+需要选择学习率；需要迭代求解；特征数量较大时可以使用
+2）正规方程
+不要要选择学习率；一次运算得出；需要计算方程，时间复杂度较高O(n^3)
+3、算法选择依据：
+1）小规模数据：
+正规方程(不能解决拟合问题)
+岭回归
+2）大规模数据：
+梯度下降
+4.1.6扩展-梯度下降的优化方法
+原始的梯度下降（gradient descent，GD）需计算所有样本的值才能得出梯度，计算量大，以下为改进：
+1、FGD
+全梯度下降算法(Full gradient descent）
+在进行计算的时候,计算所有样本的误差平均值,作为我的目标函数
+2、SGD
+随机梯度下降算法（Stochastic gradient descent）
+每次迭代时只选择一个样本进行考核
+3、SAG
+随机平均梯度下降算法（Stochastic average gradient descent）
+会给每个样本都维持一个平均值,后期计算的时候,参考这个平均值
+4.2欠拟合与过拟合
+4.2.1什么是欠拟合与过拟合
+1、欠拟合
+一个假设在训练数据上不能获得更好的拟合，并且在测试数据集上也不能很好地拟合数据，此时认为这个假设出现了欠拟合的现象。(模型过于简单)
+2、过拟合
+一个假设在训练数据上能够获得比其他假设更好的拟合， 但是在测试数据集上却不能很好地拟合数据，此时认为这个假设出现了过拟合的现象。(模型过于复杂)
+4.2.2原因及解决办法
+1、欠拟合原因以及解决办法
+原因：学习到数据的特征过少
+解决办法：增加数据的特征数量
+1）添加其他特征项
+2）添加多项式特征
+2、过拟合原因以及解决办法
+原因：原始特征过多，存在一些嘈杂特征， 模型过于复杂是因为模型尝试去兼顾各个测试数据点
+解决办法：
+1）重新清洗数据
+2）增大数据的训练量
+3）正则化（见下述）
+4）减少特征维度
+3、正则化-通过限制高次项的系数进行防止过拟合
+1）什么是正则化
+在解决回归过拟合中，我们选择正则化。但是对于其他机器学习算法如分类算法来说也会出现这样的问题，除了一些算法本身作用之外（决策树、神经网络），我们更多的也是去自己做特征选择，包括之前说的删除、合并一些特征。
+在学习的时候，数据提供的特征有些影响模型复杂度或者这个特征的数据点异常较多，所以算法在学习的时候尽量减少这个特征的影响（甚至删除某个特征的影响），这就是正则化。
+注：调整时候，算法并不知道某个特征影响，而是去调整参数得出优化的结果。
+2）正则化类别
+L2正则化-把高次项前面的系数变成特别小的值（常用）
+作用：可以使得其中一些W的都很小，都接近于0，削弱某个特征的影响
+优点：越小的参数说明模型越简单，越简单的模型则越不容易产生过拟合现象
+又称Ridge（岭）回归（见4.3）
+L1正则化-直接把高次项前面的系数变为0
+作用：可以使得其中一些W的值直接为0，删除这个特征的影响
+又称LASSO回归
+PS：损失函数 + λ惩罚项（公式详解见视频）
+4.3线性回归的改进-岭回归
+1、岭回归实质为具有L2正则化的线性回归，达到解决过拟合的效果
+2、API
+1）具有L2正则化的线性回归
+sklearn.linear_model.Ridge(alpha=1.0, fit_intercept=True,solver=&quot;auto&rdquo;, normalize=False)
+参数：
+alpha:正则化力度=惩罚项系数，也叫 λ
+λ取值：0~1 1~10
+solver:会根据数据自动选择优化方法
+sag（随机平均梯度下降算法）:如果数据集、特征都比较大，选择该随机梯度下降优化
+normalize:数据是否进行标准化
+normalize=False:可以在fit之前调用preprocessing.StandardScaler标准化数据
+属性：
+Ridge.coef_:回归权重
+Ridge.intercept_:回归偏置
+PS:Ridge方法相当于SGDRegressor(penalty='l2&rsquo;, loss=&quot;squared_loss&rdquo;),只不过SGDRegressor（4.1.3-2）实现了一个普通的随机梯度下降学习，推荐使用Ridge(实现了SAG)
+2）具有L2正则化的线性回归&amp;可以进行交叉验证
+sklearn.linear_model.RidgeCV(_BaseRidgeCV, RegressorMixin)
+3、观察正则化程度的变化，对结果的影响？
+1）正则化力度越大，权重系数会越小
+2）正则化力度越小，权重系数会越大
+4、案例：波士顿房价预测
+4.4分类算法-逻辑回归与二分类
+逻辑回归是机器学习中的一种分类模型，但其与回归有一定的联系。
+4.4.1逻辑回归的应用场景
+广告点击率-是否会被点击
+是否为垃圾邮件
+是否患病
+是否为金融诈骗
+是否为虚假账号
+从上面例子不难发现都属于两个类别（正例/反例）间的判断，逻辑回归正是解决二分类问题的利器。
+4.4.2逻辑回归的原理
+1、逻辑回归的输入=线型回归的输出，即g(x)中的x=线性回归的h(w)
+2、激活函数：sigmoid函数=g(x)=1/(1 + e^(-x))
+1）线型回归的结果输入到sigmoid函数中
+2）sigmoid函数输出结果：
+[0, 1]区间的一个概率值（默认设0.5为阈值，即大于0.5认为其属于此类别，小于0.5则不属于）
+3)假设函数/线性模型:
+1/(1 + e^(-(w1x1 + w2x2 + w3x3 + …… + wnxn + b)))
+4）损失函数：
+线性回归-真实值&amp;预测值都是数
+[(y_predict - y_true)的平方和]/总数
+逻辑回归-真实值&amp;预测值都是&quot;是否属于某个类别&rdquo;
+对数似然损失（cost(h(x),y)公式详解见视频）
+5）优化损失
+梯度下降
+4.4.3API
+sklearn.linear_model.LogisticRegression(solver='liblinear&rsquo;, penalty=‘l2’, C = 1.0)
+1、solver可选参数:{&lsquo;liblinear&rsquo;, &lsquo;sag&rsquo;, &lsquo;saga&rsquo;,&lsquo;newton-cg&rsquo;, &lsquo;lbfgs&rsquo;}，
+1）默认: &lsquo;liblinear&rsquo;；内部使用坐标轴下降法来迭代优化损失函数；用于优化问题的算法。
+2）对于小数据集来说，“liblinear”是个不错的选择，而“sag”和&rsquo;saga'对于大型数据集会更快。
+3）对于多类问题，只有&rsquo;newton-cg&rsquo;， &lsquo;sag&rsquo;， &lsquo;saga'和&rsquo;lbfgs'可以处理多项损失;“liblinear”仅限于“one-versus-rest”分类。
+4）sag:根据数据集自动选择，随机平均梯度下降。
+2、penalty：正则化的种类
+3、C：正则化力度
+4、默认将类别数量少的当做正例
+PS:LogisticRegression方法相当于SGDClassifier(loss=&quot;log&rdquo;, penalty=&rdquo; &ldquo;),SGDClassifier实现了一个普通的随机梯度下降学习,
+也支持平均随机梯度下降法（ASGD），可通过设置average=True。而使用LogisticRegression(实现了SAG)
+4.4.4案例：癌症分类预测-良\恶性乳腺癌肿瘤预测
+1、默认：恶性（类别数量少） - 正例
+2、流程分析：
+1）获取数据
+读取的时候加上names
+2）数据处理
+处理缺失值
+确定特征值、目标值
+数据集划分
+3）特征工程-标准化
+4）机器学习-逻辑回归预估器
+5）模型评估
+3、真的患癌症的，能够被检查出来的概率 - 召回率（4.4.5）
+4.4.5分类的评估方法
+1、精确率和召回率
+1）混淆矩阵
+在分类任务下，预测结果(Predicted Condition)与正确标记(True Condition)之间存在四种不同的组合，构成混淆矩阵(适用于多分类)
+|				|		  预测结果
+&mdash;&mdash;|&mdash;&mdash;-|&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-
+|				|	正例		  假例
+&mdash;&mdash;|&mdash;&mdash;-|&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-
+真实	| 正例	|	真正例TP	伪反例FN
+结果	|&mdash;&mdash;-|&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-
+| 假例	|	伪正例FP	真反例TN
+TP = True Possitive
+FN = False Negative
+2）精确率(Precision)与召回率(Recall)
+准确率=(TP+TN)/(TP+TN+FN+FP)（对不对）
+精确率=TP/(TP+FP)（查的准不准）;预测结果为正例样本中真实为正例的比例(预测结果中有多少是真正预测正确的)
+召回率=TP/(TP+FN) （查的全不全）;真实为正例的样本中预测结果为正例的比例（查得全，对正样本的区分能力）（真是结果的正例有多少被预测对了）
+3）其他评估标准之F1-score（反映了模型的稳健型）
+F1=2TP/(2TP+FN+FP)=2*Precision*Recall/(Precision+Recall)
+4）分类评估报告API
+sklearn.metrics.classification_report(y_true, y_pred, labels=[], target_names=None )
+y_true：真实目标值
+y_pred：估计器预测目标值
+labels：指定类别对应的数字
+target_names：目标类别名称
+return：每个类别精确率与召回率
+2、ROC曲线与AUC指标
+1）TPR与FPR
+TPR = TP / (TP + FN)		（TPR实质为召回率）
+所有真实类别为1的样本中，预测类别为1的比例
+FPR = FP / (FP + TN)
+所有真实类别为0的样本中，预测类别为1的比例
+2）ROC曲线
+ROC曲线的横轴就是FPRate，纵轴就是TPRate，当二者相等时，表示的意义则是：对于不论真实类别是1还是0的样本，分类器预测为1的概率是相等的，此时AUC为0.5
+3）AUC指标
+AUC的概率意义是随机取一对正负样本，正样本得分大于负样本得分的概率
+AUC的范围在[0, 1]之间，并且越接近1越好，越接近0.5属于乱猜
+AUC=1，完美分类器，采用这个预测模型时，不管设定什么阈值都能得出完美预测。绝大多数预测的场合，不存在完美分类器
+0.5&lt;AUC&lt;1，优于随机猜测。这个分类器（模型）妥善设定阈值的话，能有预测价值
+最终AUC在[0.5,1]之间，并越接近1最好
+4）AUC计算API
+sklearn.metrics.roc_auc_score(y_true, y_score)
+计算ROC曲线面积，即AUC值
+y_true：每个样本的真实类别，必须为0(反例),1(正例)标记
+y_score：预测得分，可以是正类的估计概率、置信值或者分类器方法的返回值
+5）AUC只能用来评价二分类，AUC非常适合评价样本不平衡中的分类器性能
+4.5模型保存与加载
+当训练或者计算好一个模型后，那么如果别人需要我们提供结果预测，
+就需要保存模型（主要是保存算法的参数）
+4.5.1sklearn模型的保存和加载API
+from sklearn.externals import joblib
+保存：joblib.dump(estimator, &lsquo;test.pkl&rsquo;)
+加载：estimator = joblib.load(&lsquo;test.pkl&rsquo;)
+注意：
+1.保存文件，后缀名是**.pkl
+2.加载模型是需要通过一个变量进行承接
+4.5.2线性回归的模型保存加载案例
+day3.py-linear3()</p>
+<h2 id="3应用场景没有目标值一般在分类之前做">五、聚类算法
+5.1无监督学习之K-means算法
+5.1.1什么是无监督学习
+没有目标值 - 无监督学习
+5.1.2无监督学习包含的算法
+聚类
+K-means(K均值聚类)
+降维
+PCA
+5.1.3K-means原理
+步骤：
+1）随机设置K个特征空间内的点作为初始的聚类中心
+2）对于其他每个点计算到K个中心的距离，位置的点选择最近的一个聚类中心作为标记类别
+3）接着对标记的聚类中心之后，重新计算出每个聚类的新中心点（平均值）
+4）若计算出来的新中心点与原中心点一样，则结束；否则重新进行第二步
+5.1.4K-meansAPI
+sklearn.cluster.KMeans(n_clusters=8,init=&quot;k-means++&rdquo;)
+参数:
+n_clusters:开始的聚类中心数量整型，缺省值=8，生成的聚类数，即产生的质心（centroids）数
+init：初始化方法，默认=&quot;k-means++&rdquo;
+属性：
+labels_：默认标记的类型，可以和真实值比较（不是值比较）
+方法:
+estimator.fit(x)
+estimator.predict(x)
+estimator.fit_predict(x)
+计算聚类中心并预测每个样本属于哪个类别,相当于先调用fit(x),然后再调用predict(x)
+5.1.5案例：K-means对Instacart Market用户聚类
+k = 3
+流程分析：
+继PCA降维之后的数据
+1）预估器流程
+2）看结果
+3）模型评估（5.1.6）
+5.1.6K-means性能评估指标
+1、误差平方和(SSE \The sum of squares due to error)
+2、“肘”方法 (Elbow method) — K值确定
+3、轮廓系数法（Silhouette Coefficient）
+1）&ldquo;高内聚，低耦合&rdquo;&ndash;内部距离最小化，外部距离最大化
+2）S=(b-a)/max(b,a)
+i为某已聚类数据中的样本
+b为i到其他族群的所有样本的距离的最小值（外部距离）
+a为i到本身族群的所有样本的距离的平均值（内部距离）
+3）轮廓系数法结合了聚类的凝聚度（Cohesion）和分离度（Separation），用于评估聚类的效果。
+轮廓系数的值是介于 [-1,1]，越趋近于1代表凝聚度和分离度都相对较优。
+如果b&raquo;a:S趋近于1，效果越好；
+如果b&laquo;a:S趋近于-1，效果不好。
+求出所有样本的轮廓系数后再求平均值就得到了平均轮廓系数。
+平均轮廓系数的取值范围为[-1,1]，系数越大，聚类效果越好。
+4）API
+sklearn.metrics.sihouette_score(X,labels)
+计算所有样本的平均轮廓系数
+参数：
+X：特征值
+labels：被聚类标记的目标值
+4、CH系数（Calinski-Harabasz Index）
+5.1.7K-means总结
+1、特点：采用迭代式算法，直观易懂并且非常实用
+2、缺点：容易收敛到局部最优解（多次聚类）
+3、应用场景：没有目标值（一般在分类之前做）</h2>
+<p>《遥感》
+一、不同地物亮度差异图
+1、亮度值=DN=GF3&rsquo;B1		样本数=像素点个数
+2、使用ec对图像采集样本,海水、绿潮、陆地三类地物各取1000像素点:
+(.txt转为.csv的方法：https://zhidao.baidu.com/question/307760912)
+1）GF3-FS2-20190620
+C11_geo.tif
+GF3_FS2_HH-20190620-green.csv
+GF3_FS2_HH-20190620-land.csv
+GF3_FS2_HH-20190620-sea.csv
+C22_geo.tif
+GF3_FS2_HV-20190620-green.csv
+GF3_FS2_HV-20190620-land.csv
+GF3_FS2_HV-20190620-sea.csv
+2）GF3-FS1-20190717
+C11_geo.tif
+GF3_FS1_HH-20190717-green.csv
+GF3_FS1_HH-20190717-land.csv
+GF3_FS1_HH-20190717-sea.csv
+C22_geo.tif
+GF3_FS1_HV-20190717-green.csv
+GF3_FS1_HV-20190717-land.csv
+GF3_FS1_HV-20190717-sea.csv
+3、python-matplotlab-频数分布直方图:
+FS1-HH-gls.png	FS1-HH-g.png	FS1-HH-l.png	FS1-HH-s.png
+FS1-HV-gls.png	FS1-HV-g.png	FS1-HV-l.png	FS1-HV-s.png
+FS2-HH-gls.png	FS2-HH-g.png	FS2-HH-l.png	FS2-HH-s.png
+FS2-HV-gls.png	FS2-HV-g.png	FS2-HV-l.png	FS2-HV-s.png
+4、极值统计-确定阈值：
+1）GF3-FS2-20190620
+HH:		max			min		绿潮提取阈值=0.3206~0.32		绿潮&amp;陆地区分阈值=2.1109~2.11
+g		3.7109	0.4981	
+l		5.3276	0.5109
+s		0.1431	0.0325
+HV:		max			min		绿潮提取阈值=0.10925~0.11		绿潮&amp;陆地区分阈值=0.4498~0.45
+g		0.7321	0.1476
+l		1.9364	0.1675
+s		0.0709	0.0153
+2）GF3-FS1-20190717
+HH:		max			min		绿潮提取阈值=3.1923~3.19		绿潮&amp;陆地区分阈值=8.6829~8.68
+g		12.0094	3.5181
+l		50.6599	5.3564
+s		2.8665	0.8109
+HV:		max			min		绿潮提取阈值=0.15945~0.16		绿潮&amp;陆地区分阈值=0.6756~0.68	
+g		0.6611	0.2140
+l		4.7489	0.6901
+s		0.1049	0.0335
+PS:设绿潮提取阈值(绿潮&amp;海水区分)=s_max+(g_min-s_max)/2；前三项数据绿潮&amp;陆地区分阈值=l_min+(g_max-l_min)/2；最后一项数据绿潮&amp;陆地区分阈值=g_max+(l_min-g_max)/2
+只有GF3-FS1-HV数据可将海水、绿潮、陆地完全区分开；其余数据陆地和绿潮都混在一起
+使用bandmath进行绿潮提取的公式样例：(b1 ge 0.32)and(b1 le 2.11)
+5、表格统计：
+以GF3-FS1-20190717-HV为例：
+20200212.py
+df_gls-GF3_FS1_HV-20190717.csv</p>
+<p>二、GF3绿潮提取
+1、阈值
+根据上节实验数据得出的阈值s_max+(g_min-s_max)/2，提取效果不好；在其基础上进行猜想
+0.3206	0.10925	3.1923	0.15945
+阈值猜想1：g_min+[s_max+(g_min-s_max)/2]=(g_min+s_max)+(g_min-s_max)/2=(3g_min+s_max)/2<br>
+0.8187	0.25685	6.7104	0.37345
+阈值猜想2：g_min+(g_min-s_max)/2=(3g_min-s_max)/2
+0.6756	0.18595	3.8439	0.26855
+PS：猜想1阈值较符合放假前实验结果，拟采用该阈值进行绿潮提取实验
+将提取出的结果转为shp另存（F:\GroupMeeting\2019-10-24\modis-nasa\modis-evf-shp步骤）
+2、ec中手动配准geo.tif（F:\GroupMeeting\2020-01-09\手动配准注意步骤）
+GF3-FS2-20190620
+HH：C11_geo.tif&mdash;&gt;C11_geo-peizhun
+HV：C22_geo.tif&mdash;&gt;C22_geo-peizhun
+GF3-FS1-20190717
+HH：C11_geo.tif&mdash;&gt;C11_geo-peizhun
+HV：C22_geo.tif&mdash;&gt;C22_geo-peizhun
+geo-peizhun-mapGCP.txt
+geo-peizhun-polynomail_coefficients.txt
+geo-peizhun-registration_points.pts
+3、ec中用roi-shp-roi方法截子图（原始图像+提取图像）（F:\GroupMeeting\2020-01-09\roi_shp截子图步骤）
+用shp确定重叠区域：
+1)时间段1&ndash;zone1（zone1沿用放假前确定的区域，同F:\GroupMeeting\2019-12-19\精度评价中的zone1）
+sub-C11-zone1	sub-C11-tiqu-zone1
+sub-C22-zone1	sub-C22-tiqu-zone1
+sub-modis_0619-zone1	sub-modis_0619-ndvi-zone1
+sub-modis_0622-zone1	sub-modis_0622-ndvi-zone1
+2)时间段2&ndash;zone2
+sub-C11-zone2	sub-C11-tiqu-zone2
+sub-C22-zone2	sub-C22-tiqu-zone2
+sub-modis_0715-zone2	sub-modis_0715-ndvi-zone2
+sub-landsat8_0720-zone2	sub-landsat8_0720-ndvi-zone2		（前者对原始图像543波段合成后进行截图）</p>
+<p>三、精度分析
+1、数据：
+1)时间段1：
+modis:6-19(170) 6-22(173)	
+GF3:6-20(GF3-FS2-50)
+2)时间段2：
+landsat8:7-20(119035)
+modis:7-15(196)			7-21(202)地理上与GF3无交集，删除此项
+GF3:7-17(GF3-FS1-28)
+2、精度分析(参考师姐论文计算相对偏差)：
+以GF-3 SAR影像为基准，对GF-3数据和Landsat8数据的绿潮面积提取结果进行对比，
+计算相对偏差，即GF-3数据与Landsat8数据绿潮检测面积的差值(的绝对值)与GF-3数据绿潮检测面积的比值
+监测面积S=N<em>r</em>r,N为绿潮爆发范围内的像素点个数，r为卫星传感器空间分辨率
+1平方千米=1000000平方米=100公顷
+1)
+S(GF3-FS2-HH_6-20)=S(sub-C11-tiqu-zone1)=1910<em>10m</em>10m=0.191km^2											
+S(GF3-FS2-HV_6-20)=S(sub-C22-tiqu-zone1)=3093<em>10m</em>10m=0.3093km^2
+S(modis_6-19)=S(sub-modis_0619-ndvi-zone1)=343<em>250m</em>250m=21.4375km^2
+S(modis_6-22)=S(sub-modis_0622-ndvi-zone1)=193<em>250m</em>250m=12.0625km^2
+2)
+S(GF3-FS1-HH_7-17)=S(sub-C11-tiqu-zone2)=276<em>5m</em>5m=0.0069km^2
+S(GF3-FS1-HV_7-17)=S(sub-C22-tiqu-zone2)=447<em>5m</em>5m=0.011175km^2
+S(modis_7-15)=S(sub-modis_0715-ndvi-zone2)=37<em>250m</em>250m=2.3125km^2
+S(landsat8_7-20)=S(sub-landsat8_0720-ndvi-zone2)=7479<em>30m</em>30m=6.7311km^2	（543波段空间分辨率均为30m）
+3、提取结果-相对偏差-统计表格
+绿潮提取精度分析之相对偏差统计.doc</p>
+<p>四、决策树算法
+五、海信对外合作需求</p>
+<hr>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
