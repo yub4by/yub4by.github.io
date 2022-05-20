@@ -12,8 +12,6 @@
 
 ✨ 意向：Java软件开发工程师 / AI机器视觉算法工程师 / Web前端开发工程师 / 工业信息化工程师
 
-` 男 / 汉族 / 共青团员 / 山东省潍坊市 / 1996.9 `
-
 
 
 # 1️⃣​​ 教育背景
@@ -109,11 +107,11 @@
 
 # 5️⃣​​学术成果
 
-- **Haifei Yu**, Changying Wang, Yi Sui, Jinhua Li, and Jialan Chu. Automatic Extraction of Green Tide using Dual-polarization Chinese GF-3 SAR Images[J]. Journal of Coastal Research, 2020, 102(SI): 318-325. SCI-Q4, IF=0.854, DOi: [10.2112/SI102-038.1](https://doi.org/10.2112/SI102-038.1).
+- **Haifei**, Changying Wang, Yi Sui, Jinhua Li, and Jialan Chu. Automatic Extraction of Green Tide using Dual-polarization Chinese GF-3 SAR Images[J]. Journal of Coastal Research, 2020, 102(SI): 318-325. SCI-Q4, IF=0.854, DOi: [10.2112/SI102-038.1](https://doi.org/10.2112/SI102-038.1).
 
-- **Haifei Yu**, Changying Wang, Jinhua Li, and Yi Sui. Automatic Extraction of Green Tide From GF-3 SAR Images Based on Feature Selection and Deep Learning[J]. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (IEEE J-STARS), 2021, 14: 10598-10613. SCI-Q2, IF=3.784, DOi: [10.1109/JSTARS.2021.3118374](https://doi.org/10.1109/JSTARS.2021.3118374).
+- **Haifei**, Changying Wang, Jinhua Li, and Yi Sui. Automatic Extraction of Green Tide From GF-3 SAR Images Based on Feature Selection and Deep Learning[J]. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (IEEE J-STARS), 2021, 14: 10598-10613. SCI-Q2, IF=3.784, DOi: [10.1109/JSTARS.2021.3118374](https://doi.org/10.1109/JSTARS.2021.3118374).
 
-- 基于高分三号卫星SAR影像的筏式养殖区提取方法[P], CN112989940A, 中国, 2021-06-18, 初佳兰,王常颖, **于海飞**, 陈艳拢.
+- 基于高分三号卫星SAR影像的筏式养殖区提取方法[P], CN112989940A, 中国, 2021-06-18, 初佳兰,王常颖, **Haifei**, 陈艳拢.
 
 - Fourth International Conference on Smart Technologies in Data Science and Communication (SMART DSC-2021).
 
