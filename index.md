@@ -145,13 +145,13 @@
 
 # 7️⃣​​项目经历
 
-- &#x1F4C1;基于MVC的Java Web网站：图书馆管理系统、风景区管理系统
+- &#x1F4C1;基于MVC的Java Web网站：[图书馆管理系统](https://github.com/yub4by/library-management-system)、[风景区管理系统](https://github.com/yub4by/scenic-spot-management-system)
 
-- &#x1F4C1;基于Java GUI的桌面端应用程序：酒店房间管理系统
+- &#x1F4C1;基于Java GUI的桌面端应用程序：[酒店房间管理系统](https://github.com/yub4by/hotel-room-management-system)
 
-- &#x1F4C1;基于Android的移动端应用程序：仿12306铁路购票系统
+- &#x1F4C1;基于Android的移动端应用程序：[仿12306铁路购票系统](https://github.com/yub4by/12306-railway-ticket-system)
 
-- &#x1F4C1;基于SSM框架的Java Web网站：NGCar新能源汽车推广商城（本科毕设）
+- &#x1F4C1;基于SSM框架的Java Web网站：NGCar新能源汽车推广商城
 
   > 1. 职责
   >    - 负责对接微信支付API和短信验证码API
@@ -175,7 +175,7 @@
   >    - 四对象：网站管理员、线上品牌经销商、线下实体店客服、购车用户
   >    - 四平台：系统管理平台、品牌商家开放平台、实体店平台、线上购车平台
 
-- &#x1F4C1;基于SpringBoot+Vue的开源博客系统(mszlBlog)
+- &#x1F4C1;[基于SpringBoot+Vue的开源博客系统](https://github.com/yub4by/MsBlog)
 
   > 1. 技术栈
   >    - 前端：Vue、Element-ui、Axios
@@ -187,7 +187,7 @@
   >    - Spring Security + Jwt权限认证、Docker部署
   >    - 最新文章、最热文章、文章归档、文章评论、文章分类和标签
 
-- &#x1F4C1;基于SpringBoot+Vue的前后端分离博客系统(VueBlog-MarkerHub)
+- &#x1F4C1;[基于SpringBoot+Vue的前后端分离博客系统](https://github.com/yub4by/MhBlog)
 
   > 1. 技术栈
   >    - 前端：Vue、Element-ui、Axios
@@ -198,7 +198,7 @@
   >    - Shiro + Redis 会话共享、Shiro + Jwt 身份校验
   >    - 统一结果封装、实体校验、解决跨域问题等
 
-- &#x1F4C1;基于SpringBoot+Vue的前后端分离后台管理系统(VueAdmin-MarkerHub)
+- &#x1F4C1;[基于SpringBoot+Vue的前后端分离后台管理系统](https://github.com/yub4by/MhAdmin)
 
   > 1. 技术栈
   >    - 前端：Vue、Element-ui、Axios
@@ -211,11 +211,11 @@
 
 - &#x1F4C1;国产高分三号卫星(GF-3)双极化SAR遥感影像自适应阈值绿潮自动检测技术
 
-  > 		考虑到SAR图像中不同区域之间存在噪声、亮度和对比度差异，如果只用一个固定的全局阈值对整幅图像进行绿潮提取，可能由于不能兼顾图像各处的情况导致检测效果不好。因此，基于滑动窗口算法，迭代阈值算法和改进的直方图双峰算法，设计了一种自适应/动态阈值SAR遥感影像绿潮提取算法。
+  > 		考虑到SAR图像中不同区域之间存在噪声、亮度和对比度差异，如果只用一个固定的全局阈值对整幅图像进行绿潮提取，可能由于不能兼顾图像各处的情况导致检测效果不好。因此，基于滑动窗口算法，迭代阈值算法和改进的直方图双峰算法，设计了一种自适应阈值SAR遥感影像绿潮提取算法。
 
 - &#x1F4C1;基于深度学习语义分割技术的GF-3 SAR绿潮自动提取算法
 
-  > 		首先探究了双极化SAR的特征提取方法，构建了国产高分三号卫星的高维特征空间；其次结合巴士距离和可分行指数提出了适用于GF3双极化SAR的特征选择方法；然后基于谷歌的mobilenets设计了一个轻量级语义分割深度卷积神经网络mobile-segnet；最后，在两者基础上，提出了一种基于特征选择和语义分割的SAR影像绿潮自动检测技术；通过网络训练和模型预测实现了SAR影像上高精度高效率的绿潮自动识别与提取。
+  > 		首先探究了双极化SAR的特征提取方法，构建了国产高分三号卫星的高维特征空间；其次结合巴士距离和可分行指数提出了适用于GF3双极化SAR的特征选择方法；然后基于谷歌的MobileNets设计了一个轻量级语义分割深度卷积神经网络Mobile-SegNet；最后，在两者基础上，提出了一种基于特征选择和语义分割的SAR影像绿潮自动检测技术；通过网络训练和模型预测实现了SAR影像上高精度高效率的绿潮自动识别与提取。
 
 - &#x1F4C1;结合迭代阈值与密度聚类算法的GF-3 SAR近海筏式养殖区提取方法
 
