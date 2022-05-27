@@ -241,3 +241,5 @@
 <center>[一点真如本心  ❤️ 九分人间烟火]</center>
 
 <center> Copyright © 2022 yppah Powered by Markdown on Github</center>
+<a href="https://beian.miit.gov.cn/" target="_blank">鲁ICP备2022017522号-1</a>
+<a href="https://icp.gov.moe/?keyword=20222121" target="_blank">萌ICP备20222121号</a>
