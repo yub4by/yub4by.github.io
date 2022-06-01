@@ -98,7 +98,7 @@
   - 哈尔滨学院优秀毕业论文
 - 2019 - 2020
   - 中国高校计算机大赛-华为云大数据挑战赛热身赛二等奖（第6名）
-  - 科大讯飞A.I.开发者大赛-无人系统机器人智能分拣挑战赛复赛第4名
+  - 科大讯飞A.I.开发者大赛-无人系统机器人智能分拣挑战赛复赛三等奖（第4名）
 - 2020 - 2021
   - 青岛大学优秀研究生
   - 青岛大学研究生二等学业奖学金
@@ -145,11 +145,11 @@
 
 # 7️⃣​​项目经历
 
-- &#x1F4C1;基于MVC的Java Web网站：[图书馆管理系统](https://github.com/yub4by/library-management-system)、[风景区管理系统](https://github.com/yub4by/scenic-spot-management-system)
-
 - &#x1F4C1;基于Java GUI的桌面端应用程序：[酒店房间管理系统](https://github.com/yub4by/hotel-room-management-system)
 
 - &#x1F4C1;基于Android的移动端应用程序：[仿12306铁路购票系统](https://github.com/yub4by/12306-railway-ticket-system)
+
+- &#x1F4C1;基于MVC的Java Web网站：[图书馆管理系统](https://github.com/yub4by/library-management-system)、[风景区管理系统](https://github.com/yub4by/scenic-spot-management-system)
 
 - &#x1F4C1;基于SSM框架的Java Web网站：NGCar新能源汽车推广商城
 
