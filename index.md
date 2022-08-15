@@ -12,11 +12,13 @@
 
 ✨ 意向：Java软件开发工程师 / AI机器视觉算法工程师 / Web前端开发工程师 / 工业信息化工程师
 
+` 男 / 汉族 / 共青团员 / 山东省潍坊市 / 1996.9 `
+
 
 
 # 1️⃣​​ 教育背景
 
-- &#x1F393;2019.09 - 2022.06					青岛大学					计算机科学技术学院					软件工程					硕士
+- &#x1F393;2019.09 - 2022.06			青岛大学			数据科学与软件工程学院&计算机科学技术学院			软件工程			硕士
 
   > `主要课程`：矩阵分析与应用、软件方法学、算法设计与分析、数据仓库与数据挖掘、数字图像处理、分布式与云计算
   >
@@ -26,7 +28,7 @@
   >
   > `排名(Rank)`： 前20%
 
-- &#x1F393;2015.09 - 2019.06					哈尔滨学院				信息工程学院								软件工程					学士		
+- &#x1F393;2015.09 - 2019.06			哈尔滨学院		软件学院&信息工程学院				软件工程			学士		
 
   > `主要课程`：微机接口与汇编、数据结构、密码学、离散数学、编译原理、计算机组成原理、计算机网络、操作系统、数据库系统
   >
@@ -98,7 +100,7 @@
   - 哈尔滨学院优秀毕业论文
 - 2019 - 2020
   - 中国高校计算机大赛-华为云大数据挑战赛热身赛二等奖（第6名）
-  - 科大讯飞A.I.开发者大赛-无人系统机器人智能分拣挑战赛复赛三等奖（第4名）
+  - 科大讯飞A.I.开发者大赛-无人系统机器人智能分拣挑战赛复赛第4名
 - 2020 - 2021
   - 青岛大学优秀研究生
   - 青岛大学研究生二等学业奖学金
@@ -107,11 +109,11 @@
 
 # 5️⃣​​学术成果
 
-- **Haifei**, Changying Wang, Yi Sui, Jinhua Li, and Jialan Chu. Automatic Extraction of Green Tide using Dual-polarization Chinese GF-3 SAR Images[J]. Journal of Coastal Research, 2020, 102(SI): 318-325. SCI-Q4, IF=0.854, DOi: [10.2112/SI102-038.1](https://doi.org/10.2112/SI102-038.1).
+- **Haifei **, Changying Wang, Yi Sui, Jinhua Li, and Jialan Chu. Automatic Extraction of Green Tide using Dual-polarization Chinese GF-3 SAR Images[J]. Journal of Coastal Research, 2020, 102(SI): 318-325. SCI-Q4, IF=0.854, DOi: [10.2112/SI102-038.1](https://doi.org/10.2112/SI102-038.1).
 
-- **Haifei**, Changying Wang, Jinhua Li, and Yi Sui. Automatic Extraction of Green Tide From GF-3 SAR Images Based on Feature Selection and Deep Learning[J]. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (IEEE J-STARS), 2021, 14: 10598-10613. SCI-Q2, IF=3.784, DOi: [10.1109/JSTARS.2021.3118374](https://doi.org/10.1109/JSTARS.2021.3118374).
+- **Haifei **, Changying Wang, Jinhua Li, and Yi Sui. Automatic Extraction of Green Tide From GF-3 SAR Images Based on Feature Selection and Deep Learning[J]. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (IEEE J-STARS), 2021, 14: 10598-10613. SCI-Q2, IF=3.784, DOi: [10.1109/JSTARS.2021.3118374](https://doi.org/10.1109/JSTARS.2021.3118374).
 
-- 基于高分三号卫星SAR影像的筏式养殖区提取方法[P], CN112989940A, 中国, 2021-06-18, 初佳兰,王常颖, **Haifei**, 陈艳拢.
+- 基于高分三号卫星SAR影像的筏式养殖区提取方法[P], CN112989940A, 中国, 2021-06-18, 初佳兰,王常颖, **Haifei **, 陈艳拢.
 
 - Fourth International Conference on Smart Technologies in Data Science and Communication (SMART DSC-2021).
 
@@ -145,11 +147,11 @@
 
 # 7️⃣​​项目经历
 
+- &#x1F4C1;基于MVC的Java Web网站：[图书馆管理系统](https://github.com/yub4by/library-management-system)、[风景区管理系统](https://github.com/yub4by/scenic-spot-management-system)
+
 - &#x1F4C1;基于Java GUI的桌面端应用程序：[酒店房间管理系统](https://github.com/yub4by/hotel-room-management-system)
 
 - &#x1F4C1;基于Android的移动端应用程序：[仿12306铁路购票系统](https://github.com/yub4by/12306-railway-ticket-system)
-
-- &#x1F4C1;基于MVC的Java Web网站：[图书馆管理系统](https://github.com/yub4by/library-management-system)、[风景区管理系统](https://github.com/yub4by/scenic-spot-management-system)
 
 - &#x1F4C1;基于SSM框架的Java Web网站：NGCar新能源汽车推广商城
 
@@ -232,8 +234,9 @@
 # 9️⃣​​兴趣爱好
 
 - 唱&#x1F3A4;跳&#x1F483;Rap羽毛球&#x1F3F8;
-- 跑步&#x1F3C3;健身&#x1F4AA;品美食&#x1F60B;
+- 跑步&#x1F3C3;健身&#x1F4AA;吃美食&#x1F60B;
 - 看书&#x1F4D6;练字✒️听音乐&#x1F3B5;
+- 贪财&#x1F4B0;好色&#x1F60D;爱祖国&#x1F1E8;&#x1F1F3;
 
 
 
@@ -242,5 +245,7 @@
 <center>[一点真如本心  ❤️ 九分人间烟火]</center>
 
 <center> Copyright © 2022 yppah Powered by Markdown on Github</center>
+
 <a href="https://beian.miit.gov.cn/" target="_blank">鲁ICP备2022017522号-1</a>
+
 <a href="https://icp.gov.moe/?keyword=20222121" target="_blank">萌ICP备20222121号</a>
