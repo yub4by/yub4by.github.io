@@ -49,9 +49,9 @@
 
 - 熟悉关系型数据库MySql和Oracle，以及NoSQL数据库Redis
 
-- 掌握Linux的常用操作命令，熟悉CentOS和macOS
+- 掌握Linux常用操作命令，熟悉CentOS和macOS
 
-- 熟悉Docker环境搭建，了解RabbitMQ、Elasticsearch等微服务常用中间件的使用
+- 熟悉Docker环境搭建，了解RabbitMQ、Elasticsearch等微服务常用中间件使用
 
 - 了解Java GUI开发和Android开发，了解微信小程序开发和微信公众号运营
 
