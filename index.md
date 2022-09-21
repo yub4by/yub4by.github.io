@@ -8,7 +8,7 @@
 
 &#x1F517; 主页：[yppah.cnblogs.com](https://www.cnblogs.com/yppah/)
 
-&#x1F4DE; 电话：176&#x2753;&#x2753;&#x2753;654
+&#x1F4DE; 电话：176❔❔❔654
 
 ✨ 意向：Java软件开发工程师 / AI机器视觉算法工程师 / Web前端开发工程师 / 工业信息化工程师
 
